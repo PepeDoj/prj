@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <input type="checkbox" id="callback_1">
+      <label class="btn" for="callback_1">Sign In</label>
+    
+
+      <form action="" class="popup_1">
+
+      <span>Login</span>
+      <input type="text" name="lg_in" id="lg_in" required pattern="[^а-яёА-ЯЁ]+" title="Use latin letters, numbers and special characters"><br>
+
+      <span>Password</span>
+      <input type="password" name="pw_in" id="pw_in" required pattern="[^а-яёА-ЯЁ]{8,}" title="Use latin letters, numbers and special characters, the number of characters is at least 8"><br>
+      
+
+      <input type="button" value="Log in" onclick="LogIn()">
+      <input type="reset" value="Cancel">
+
+      <label class="close" for="callback">+</label>
+
+      </form>
+    </div>
+
+
+    <div class="wrapper">
+
+      <input type="checkbox" id="callback_2">
+      <label class="btn" for="callback_2">Sign Up</label>
+    
+
+      <form action="" class="popup_2">
+
+      <span>Name</span>
+      <input type="text" placeholder="Name" name="nm_up" id="nm_up" required pattern="[^а-яёА-ЯЁ]+" title="Use latin letters, numbers and special characters"><br>
+
+      <span>Login</span>
+      <input type="text" placeholder="Login" name="lg_up" id="lg_up" required pattern="[^а-яёА-ЯЁ]+" title="Use latin letters, numbers and special characters"><br>
+
+      <span>Password</span>
+      <input type="password" placeholder="Password" name="pw_up" id="pw_up" required pattern="[^а-яёА-ЯЁ]{8,}" title="Use latin letters, numbers and special characters, the number of characters is at least 8"><br>
+      
+      <span>Role</span>
+      <input type="text" placeholder="Role" name="rl_up" id="rl_up" required pattern="[^а-яёА-ЯЁ]{8,}" title="Use latin letters, numbers and special characters, the number of characters is at least 8"><br>
+
+      <input type="button" class="LogIn" value="Sign In" onclick="LogUp()">
+      <input type="reset" value="Cancel">
+
+      <label class="close" for="callback">+</label>
+
+      </form>
+    </div>
+
+
+    <script src="script.js?v=1"></script>
+  </body>
+</html>
