@@ -1,0 +1,94 @@
+.custom-checkbox:checked + label::before {
+  border-color: #ffffff;
+  background-color: #6C82CF;
+}
+.custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
+  border-color: #6C82CF;
+}
+
+#main {
+  display: flex;
+}
+#content {
+  padding-left: 250px;
+}
+#ffil {
+  height: 890px;
+  width: 250px;
+  box-shadow: 1px 2px 4px #6C82CF;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+#card_price {
+  padding: 22px;
+  font-weight: 900;
+  font-size: 24px;
+  color: #222222;
+  padding-left: 40px;
+  margin-block-end: -10px;
+}
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 16px;
+}
+.custom-checkbox + label::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  background-size: 100% 100%;
+}
+
+.but {
+  width: 230px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #474747;
+  padding: 10px;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  background-color: #ffffff;
+}
+
+.zag {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+#card {
+  height: 160px;
+  width: 430px;
+  display: flex;
+  box-shadow: 1px 2px 4px #6C82CF;
+  border-radius: 5px;
+  color: #222222;
+}
+
+#card_left {
+  display: flex;
+  margin-block: auto;
+}
+#card_right {
+  margin-left: auto;
+  margin-block: -20px;
+}
+
