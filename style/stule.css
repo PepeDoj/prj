@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: block;
+    max-width: 100%;
+    height: 70px;
+    margin: 10px 10px;
+    font-family: Arial;
+    text-align: right;
+}
+
+.btn{
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(24, 23, 23);
+    border: 1px solid #D03A1E;
+    padding: 15px 0;
+    margin: 15px 10px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.popup{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    background-color: #D03A1E;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    top: -999px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.popup input{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+    
+}
+
+.submit{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    cursor: pointer;
+    width: 40px;
+    font-weight: 900;
+}
+
+
+#modal{
+    display: none;
+}
+
+#modal:checked ~.popup{
+    top: 0;
+}
+
+.popup_signUP{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    background-color: #D03A1E;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    top: -999px;
+    border-radius: 10px
+}
+
+.popup_signUP input{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+#modal_signUP{
+    display: none;
+}
+
+#modal_signUP:checked ~.popup_signUP{
+    top: -175px;
+}
+
+.close_signUP{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.out{
+    display: none;
+}
+
+#modal_out{
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D03A1E;
+    border: 1px solid #D03A1E;
+    padding: 15px 0;
+    margin: 20px auto;
+}
+
+#out_text{
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D03A1E;
+    padding: 15px 0;
+    margin: 20px auto;
+}
+
+.box{
+    display: inline-block;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/stule.css">
+    <link rel="stylesheet" href="style/stuleMagaz.css">
+    <title>༼ つ ◕_◕ ༽つ 🛒</title>
+</head>
+<body>
+    <div class="out">
+        <input type="button" class="btn" id="modal_out" value="(´。＿。｀)">
+        <label id="out_text">Гутен морген</label>
+    </div>
+       
+    <div class="wrapper">
+        <input type="checkbox" id="modal">
+        <label class="btn" for="modal">(👉ﾟヮﾟ)👉</label>
+
+        <input type="checkbox" id="modal_signUP">
+        <label class="btn" for="modal_signUP">👈(ﾟヮﾟ👈)</label>
+
+        <form class="box" action="shop.html">
+            <input class="btn" type="submit" value="( ﾉ ﾟｰﾟ)ﾉ🛒"/>
+        </form>
+
+        <form action="" class="popup">
+            <input type="text" id="lg" required pattern="[^а-яёА-ЯЁ]+" title="Input your login">
+            <input type="password" id="pw" required pattern="[^а-яёА-ЯЁ]{8,}" title="Input your passvord">
+            <input class="submit" id="submit" type="button" value="Войти">
+            <label class="close" for="modal">+</label>
+        </form>
+
+        <form action="" class="popup_signUP">
+            <input type="text" id="lg_signUP" required pattern='[^а-яёА-ЯЁ]+' title="Input your login">
+            <input type="password" id="pw_signUP" required pattern="[^а-яёА-ЯЁ]{8,}" title="Input your passvord">
+            <input class="submit" id="submit_signUP" type="button" value="Зарегистрироваться">
+            <label class="close_signUP" for="modal_signUP">+</label>
+        </form>
+    </div>
+
+    <div class="magaz">
+        <form action="" class="filter">
+            <input id="sort-asc" type="button" class="btnMagaz" value="по возростании">
+            <input id="sort-desc" type="button" class="btnMagaz" value="по убывании">
+            <input id="sort-sort" type="button" class="btnMagaz" value="по популярности">
+            <select name="categoris" id="categoris">
+                
+            </select>
+        </form>
+    </div>
+
+    <div class="element">
+            
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.magaz{
+    color: #D03A1E;
+    padding: 15px 15px;
+    margin: 20px 1135px;
+    width: 1000px;
+}
+
+.btnMagaz{
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color:  #D03A1E;
+   
+}
+
+select{
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: #222222;
+}
+
+
+
+.element{
+  width: 100%;
+  margin: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 185px);
+  grid-gap: 25px;
+
+}
+
+.el{
+    display: block;
+    max-width: 185px;
+    border: 1px  #D03A1E;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F8F8F8
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.textElem{
+    display: inline-block;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D03A1E;
+}
+
+.textElemTitle{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.btnBye{
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #D03A1E;
+    border-style: hidden;
+    font-weight: 600;
+    vertical-align: baseline;
+    
+}
+
+.btnInfo{
+    width: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #D03A1E;
+    border-style: hidden;
+    font-weight: 600;
+}
+
+table{
+    text-align: center;
+    text-transform: uppercase;
+    color: #D03A1E;
+    border: 1px solid #D03A1E;
+    width: 98%;
+    margin: 0 10px;
+}
+
+td{
+    text-align: center;
+}
+
